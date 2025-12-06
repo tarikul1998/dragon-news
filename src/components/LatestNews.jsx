@@ -6,18 +6,21 @@ const LatestNews = () => {
         <div className="flex gap-2 bg-base-200-200 p-2">
             <p className="bg-[#D72050] text-base-100 px-3 py-1">Latest</p>
             <Marquee className="space-x-10" pauseOnHover={true} speed={100}>
-                <Link to='/news'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, corrupti.
+                <Link to="/news">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
+                    corrupti.
                 </Link>
-                <Link to='/news'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, corrupti.
+                <Link to="/news">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
+                    corrupti.
                 </Link>
-                <Link to='/news'>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, corrupti.
+                <Link to="/news">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem,
+                    corrupti.
                 </Link>
             </Marquee>
         </div>
     );
 };
 
-export default LatestNews; 
+export default LatestNews;
